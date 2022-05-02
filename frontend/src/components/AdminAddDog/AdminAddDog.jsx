@@ -17,15 +17,6 @@ function AdminAddDog({ setaddNewDog, setDogs }) {
     useEffect(
         () => {
             if (submit && isFilePicked) {
-                
-               /*  const newDogDetails = {
-                    name: nameInput,
-                    breed: breedInput,
-                    gender: genderInput,
-                    training: trainingInput,
-                    introduction: introductionInput,
-                    img: `/images/${selectedFile.name}`
-                } */
 
                 const newDogDetails = new FormData();
                 newDogDetails.append("name", nameInput);
