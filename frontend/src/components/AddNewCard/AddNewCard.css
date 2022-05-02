@@ -1,0 +1,25 @@
+.addNewCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 300px;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 20px;
+    font-family: "SF UI";
+    font-weight: lighter;
+}
+
+.addNewCard:hover {
+    cursor: pointer;
+}
+
+.addNewCard .dogIcon {
+    height: 150px;
+    width: 150px;
+}

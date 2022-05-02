@@ -1,0 +1,23 @@
+nav {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+
+a {
+    padding: 20px;
+    font-size: 20px;
+    color: #3b3204;
+
+}
+
+#logoinheader {
+    width: 200px;
+    height: auto;
+    top: 0;
+}

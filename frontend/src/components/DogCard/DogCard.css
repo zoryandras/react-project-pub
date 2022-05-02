@@ -1,0 +1,95 @@
+.dogCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 300px;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 20px;
+    font-family: "SF UI";
+    font-weight: lighter;
+}
+
+
+.dogCard div {
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; */
+} 
+
+.textDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.dogCard img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+.dogCard button {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: #167EA5;
+    border: #167EA5 solid 1px;
+    border-radius: 5px;
+    font-size: 15px;
+}   
+
+.dogCard button:hover {
+    background-color: #167EA5;
+    color: white;
+}
+
+.dogCard .dogCardButtons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dogCard .dogNameDiv {
+    font-size: 25px;
+}
+
+.dogCard .deleteBtn {
+    width: 50px;
+    background-color: #fff;
+    color: #720d0d;
+    border: #720d0d solid 1px;
+}
+
+.dogCard .deleteBtn:hover {
+    background-color: #720d0d;
+    color: #fff;
+    border: none;
+}
+
+.dogCard .deleteIcon {
+    pointer-events: none;
+}
+
+.dogCard .img-div {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.dogCard .img-div .reserved-img {
+    position: absolute;
+    object-fit: contain;
+    transform: rotate(-20deg)
+}

@@ -1,0 +1,107 @@
+/* CSS reset start */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+  font-family: "SF UI";
+  font-weight: lighter;
+}
+a{
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+ol, ul, li {
+  list-style:none;display:block;
+}
+
+/* CSS reset end */
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* ----reset end -------*/
+
+@font-face {
+  font-family: "Quietly Endure";
+  src: url("../public/fonts/Quietly_Endure.ttf")
+}
+
+@font-face {
+  font-family: "SF UI";
+  src: url("../public/fonts/sf-ui-display-bold-58646a511e3d9.otf");
+  font-weight: bold;
+}
+
+@font-face  {
+  font-family: "SF UI";
+  src: url("../public/fonts/sf-ui-display-light-58646b33e0551.otf");
+  font-weight: lighter;
+
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+body {
+  font-family: "SF UI";
+  font-weight: lighter;
+
+}
+
+#root .adminBtn {
+  position: absolute;
+  top: 30px;
+  right: 25px;
+  height: 31px;
+  width: 45px;
+  z-index: 1;
+}
+
+#root .adminBtn .loginIcon {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  color: #3b3204;
+}
+
+#root .adminBtn .loggedInIcon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 15px;
+  width: 15px;
+  color: #094c15;
+}

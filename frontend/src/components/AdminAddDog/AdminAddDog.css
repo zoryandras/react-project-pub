@@ -1,0 +1,142 @@
+.adminAddDog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 900px;
+    width: 1000px;
+    background: rgba( 255, 255, 255, 0.9 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    z-index: 2;
+}
+
+.adminAddDog .dogsInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 500px;
+    width: 500px;
+}
+
+.adminAddDog div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.adminAddDog div input {
+    height: 60px;
+    width: 500px;
+    font-size: 25px;
+    padding: 10px;
+    color: #3b3204;
+}
+
+.adminAddDog div textarea {
+    height: 100px;
+    width: 500px;
+    padding: 10px;
+    font-size: 25px;
+    color: #3b3204;
+
+}
+
+.adminAddDog div textarea, .adminAddDog div input {
+    border: 2px solid #167ea5;
+    border-radius: 10px;
+
+}
+
+.adminAddDog #img {
+    display: none;
+}
+
+.adminAddDog .imgChooser img {
+    height: 450px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.adminAddDog .imgChooser img:hover {
+    cursor: pointer;
+}
+
+.adminAddDog label {
+    font-size: 20px;
+}
+
+.adminAddDog h1 {
+    font-size: 45px;
+}
+
+.adminAddDog .cancelNewDog {
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: white;
+    color: #720d0d;
+    border: solid 2px #720d0d;
+}
+
+.adminAddDog .cancelNewDog:hover {
+    background-color: #720d0d;
+    color: #fff;
+}
+
+.adminAddDog .submitNewDog {
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #fff;
+    color: #167EA5;
+    border: solid 2px #167EA5;
+}
+
+.adminAddDog .submitNewDog:hover {
+    background-color: #167EA5;
+    color: #fff;
+}
+
+.adminAddDog ::placeholder {
+    font-size: 25px;
+}
+
+.adminAddDog input[type="file"] {
+    display: none;
+} 
+
+.custom-file-upload {
+    position: relative;
+    height: 70px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 25px;
+    /* background-color: #fff; */
+    color: #167EA5;
+    border: #167ea5 2px solid;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adminAddDog .custom-file-upload .check {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: #155d24;
+}

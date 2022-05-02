@@ -1,0 +1,14 @@
+#dogSelectorSection {
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    /* background-image: url("../../../public/images/paw.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* opacity: 0.5; */
+    min-height: 150vh;
+    width: 100%;
+    color: #3b3204;
+}

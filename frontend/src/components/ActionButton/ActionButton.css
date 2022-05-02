@@ -1,0 +1,34 @@
+.actionButton {
+    height: 70px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.actionButton.blue {
+    background-color: #167EA5;
+    color: white;
+
+}
+
+.actionButton.blue:hover {
+
+    background-color: white;
+    color: #167EA5;
+    border: solid 2px #167EA5;
+}
+
+.actionButton.white {
+    background-color: white;
+    color: #167EA5;
+    border: solid 2px #167EA5;
+}
+
+.actionButton.white:hover {
+    background-color: #167EA5;
+    color: white;
+   
+}
+
+
+    

@@ -1,0 +1,63 @@
+#landingPageSection {
+    position: relative;
+    background-color: rgb(255, 228, 194);
+    background-image: url("../../../public/images/bg_image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    font-family: "SF UI";
+    font-weight: lighter;
+
+}
+
+#landingPageSection .content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    top: 50%;
+    left: 200px;
+    transform: translateY(-50%);
+}
+
+#landingPageSection .content h1 {
+    font-size: 170px;
+    color: #3b3204;
+    font-family: "Quietly Endure";
+}
+
+#landingPageSection .content h3 {
+    font-size: 40px;
+    color: #3b3204;
+    font-weight: lighter;
+
+}
+
+
+#landingPageSection .content p {
+    font-size: 17px;
+    color: #3b3204;
+    line-height: 1.4;
+
+}
+#landingPageSection .content .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#landingPageSection .icons {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* background-color: rgb(197, 211, 223); */
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
