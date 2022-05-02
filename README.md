@@ -4,4 +4,5 @@ This project is part of my portfolio. The created website is about renting dogs 
 
 I made the website with the help of React after 4 months of learing front-end development skills.
 
-The page contains a landing page, a section with all the rentable doggos and a form, where you can add all the information about you. All the information is saved in a json file with the help of express.
+The page contains a landing page (with an admin login option), a section with all the rentable doggos and a form, where you can add all the information about you. All the information is saved in a json file with the help of express. After login, you can add new dog cards or delete old ones.
+
