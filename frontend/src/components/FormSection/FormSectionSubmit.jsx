@@ -6,7 +6,7 @@ function FormSectionSubmit() {
     return (
         <div className="returnSubmit">
             <img src="images/order_done.png" alt="" />
-            <h2>You're delicious and cute pupper is on it's way!</h2>
+            <h2>Your delicious and cute pupper is on it's way!</h2>
         </div>
     )
 
